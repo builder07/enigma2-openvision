@@ -1,5 +1,5 @@
 from __future__ import print_function
-import threading, urllib3, os, shutil
+import threading, urllib, os, shutil
 from json import loads
 from enigma import eDVBDB, eEPGCache
 from Screens.MessageBox import MessageBox
